@@ -1,7 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext");
 * {
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-family: Roboto;
+  font-style: normal; }
+
+a {
+  text-decoration: none; }
 
 .wrap-site {
-  width: 500px;
-  height: 500px;
-  background: greenyellow; }
+  background: #1069c3; }
+
+.header {
+  padding: 38px 60px 0 60px; }
+
+.wrap-logo-add-car-service-signin-registration {
+  display: flex;
+  justify-content: space-between; }
+
+.logo,
+.sign-in,
+.registration,
+.header-filters,
+.quantity-car-service,
+.quantity-car-service a,
+.filters select,
+.filters button {
+  color: #FFFFFF; }
+
+.logo {
+  flex: 1;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.34em;
+  text-transform: uppercase; }
+
+.add-car-service {
+  flex: 1;
+  margin-right: 40px;
+  color: #F2C94C;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px; }
+
+.add-car-service,
+.sign-in,
+.registration {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px; }
+
+.wrap-filters-and-car-service {
+  display: flex;
+  margin-top: 67px; }
+
+.header-filters {
+  flex: 1; }
+
+.header-filters h1 {
+  margin-bottom: 51px;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 42px; }
+
+.header p {
+  margin-top: 59px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px; }
+
+.filters select {
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  background: #4087cf;
+  border: 1px solid #E0E0E0;
+  box-sizing: border-box;
+  border-radius: 6px;
+  padding: 13px 20px 13px 20px;
+  border-style: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none !important; }
+
+.filters button {
+  background: #DB4C4A;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 13px 20px 13px 20px;
+  border-style: none; }
+
+.change-filter {
+  width: 100%;
+  margin-bottom: 9px; }
+
+.brand {
+  width: 33.33333%; }
+
+.model {
+  width: 33.33333%; }
+
+.button-find-price {
+  width: 33.33333%; }
+
+.quantity-car-service {
+  flex: 1;
+  height: 394px;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  background: url(/img/87e37e53039383.png) center no-repeat; }
+
+.quantity-car-service div {
+  padding: 11px;
+  background: rgba(1, 63, 126, 0.2);
+  border-radius: 4px;
+  width: 274px;
+  height: 43px; }
+
+@media screen and (max-width: 600px) {
+  .wrap-logo-add-car-service-signin-registration,
+  .wrap-filters-and-car-service {
+    flex-wrap: wrap; } }
