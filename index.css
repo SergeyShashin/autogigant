@@ -7,11 +7,12 @@
 a {
   text-decoration: none; }
 
-.wrap-site {
-  background: #1069c3; }
+.align-center {
+  text-align: center; }
 
 .header {
-  padding: 38px 60px 0 60px; }
+  padding: 38px 60px 0 60px;
+  background: #1069c3; }
 
 .wrap-logo-add-car-service-signin-registration {
   display: flex;
@@ -123,6 +124,34 @@ a {
   border-radius: 4px;
   width: 274px;
   height: 43px; }
+
+.why-autogigant {
+  padding: 0 60px 0 60px; }
+
+.why-autogigant h1 {
+  margin: 31px 39px;
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 66px;
+  color: #333333;
+  opacity: 0.5; }
+
+.wrap-advantages {
+  display: flex;
+  justify-content: center; }
+
+.wrap-advantages h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000; }
+
+.wrap-advantages p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #9C9C9C; }
 
 @media screen and (max-width: 600px) {
   .wrap-logo-add-car-service-signin-registration,
