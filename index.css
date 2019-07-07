@@ -55,7 +55,8 @@ a {
   margin-top: 67px; }
 
 .header-filters {
-  flex: 1; }
+  flex: 1;
+  margin-right: 100px; }
 
 .header-filters h1 {
   margin-bottom: 51px;
@@ -73,7 +74,8 @@ a {
   font-weight: normal;
   font-size: 17px;
   line-height: 20px;
-  background: #4087cf;
+  background: #4087cf no-repeat right;
+  background-image: url(/img/select-bg1.png);
   border: 1px solid #E0E0E0;
   box-sizing: border-box;
   border-radius: 6px;
