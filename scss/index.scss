@@ -33,7 +33,8 @@ a {
 .quantity-car-service,
 .quantity-car-service a,
 .filters select,
-.filters button {
+.filters button,
+.number {
     color: #FFFFFF;
 }
 
@@ -172,6 +173,12 @@ a {
     justify-content: center;
 }
 
+.quickly,
+.nocommission,
+.targeted {
+    flex: 1;
+}
+
 .wrap-advantages h2 {
     font-weight: 500;
     font-size: 24px;
@@ -181,16 +188,82 @@ a {
 
 .wrap-advantages p {
     font-weight: normal;
+    margin-bottom: 60px;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
     color: #9C9C9C;
 }
 
+.how-working-autogigant {
+    background: #F5F5F7;
+    padding: 0 0 89px 60px;
+}
+
+.how-working-autogigant h1 {
+    padding: 41px 35px;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 66px;
+    color: #333333;
+    opacity: 0.5;
+}
+
+.wrap-algoritm {
+    display: flex;
+    justify-content: space-between;
+}
+
+.number {
+    position: absolute;
+    top: -30px;
+    left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1069C3;
+    width: 67px;
+    height: 67px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    border-radius: 50px;
+}
+
+.algoritm {
+    padding: 0 15px 15px 15px;
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 9px;
+    flex: 1;
+    margin-top: 69px;
+    margin-right: 60px;
+}
+
+.algoritm h3 {
+    margin-top: 48px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
+
+.algoritm p {
+    margin-top: 18px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
 @media screen and (max-width: 600px) {
 
     .wrap-logo-add-car-service-signin-registration,
-    .wrap-filters-and-car-service {
+    .wrap-filters-and-car-service,
+    .wrap-advantages,
+    .wrap-algoritm {
         flex-wrap: wrap;
     }
+
 }
