@@ -7,8 +7,18 @@
 a {
   text-decoration: none; }
 
+hr {
+  color: #C9CDDB;
+  margin: 19px 0 25px 0; }
+
 .align-center {
   text-align: center; }
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none !important; }
 
 .header {
   padding: 38px 60px 0 60px;
@@ -16,6 +26,7 @@ a {
 
 .wrap-logo-add-car-service-signin-registration {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between; }
 
 .logo,
@@ -54,6 +65,7 @@ a {
 
 .wrap-filters-and-car-service {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 67px; }
 
 .header-filters {
@@ -82,11 +94,7 @@ a {
   box-sizing: border-box;
   border-radius: 6px;
   padding: 13px 20px 13px 20px;
-  border-style: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -ms-appearance: none;
-  appearance: none !important; }
+  border-style: none; }
 
 .filters button {
   background: #DB4C4A;
@@ -139,12 +147,17 @@ a {
 
 .wrap-advantages {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center; }
 
 .quickly,
 .nocommission,
 .targeted {
   flex: 1; }
+
+.nocommission {
+  margin-left: 15px;
+  margin-right: 15px; }
 
 .wrap-advantages h2 {
   font-weight: 500;
@@ -174,6 +187,7 @@ a {
 
 .wrap-algoritm {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between; }
 
 .number {
@@ -215,9 +229,75 @@ a {
   line-height: 19px;
   color: #000000; }
 
+.wrap-filtersCharacterCarLocationTime-cardsSto-map {
+  padding: 25px 60px 0 60px; }
+
+.wrap-filtersCharacterCarLocationTime {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.wrap-filtersCharacterCarLocationTime select {
+  padding: 15px 25px 15px 19px; }
+
+.wrap-filtersCharacterCarLocationTime span {
+  border-top: 1px solid #f1f1f1;
+  width: 60px;
+  transform: rotate(-90deg); }
+
+.date {
+  margin-left: -35px !important; }
+
+.year,
+.transmission,
+.run,
+.district {
+  background: #f1f1f1  right no-repeat;
+  background-image: url(/img/arrowGrayOnGray.png);
+  border-radius: 6px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #b1b1b1;
+  border-style: none; }
+
+.city,
+.time {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #333333;
+  border-radius: 6px;
+  background: url(/img/arrowGrayonWhite.png) right no-repeat; }
+
+.date {
+  background: #f1f1f1  right no-repeat;
+  background-image: url(/img/calendar.png);
+  border-radius: 6px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #b1b1b1;
+  border-style: none; }
+
 @media screen and (max-width: 600px) {
-  .wrap-logo-add-car-service-signin-registration,
-  .wrap-filters-and-car-service,
-  .wrap-advantages,
-  .wrap-algoritm {
-    flex-wrap: wrap; } }
+  .header,
+  .how-working-autogigant,
+  .why-autogigant {
+    padding: 0 30px 0 30px; }
+  .how-working-autogigant h1,
+  .why-autogigant h1 {
+    font-size: 36px; }
+  .algoritm {
+    margin-right: 15px; }
+  .quantity-car-service {
+    background: url(/img/87e37e53039383for600.png) center no-repeat; } }
+
+@media screen and (max-width: 320px) {
+  .how-working-autogigant h1,
+  .why-autogigant h1 {
+    font-size: 36px; }
+  .algoritm {
+    margin-right: 0; }
+  .quantity-car-service {
+    background: url(/img/87e37e53039383for320.png) center no-repeat; } }
