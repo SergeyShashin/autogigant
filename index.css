@@ -361,6 +361,76 @@ select {
   text-align: right;
   color: #27AE60; }
 
+.wrap-private-cabinet {
+  padding: 38px 60px 0 60px;
+  background: #1069c3;
+  color: #FFFFFF; }
+
+.wrap-froma-close {
+  margin-top: 57px; }
+
+.wrap-forma h1 {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 30px; }
+
+.wrap-input-registry {
+  margin: 33px 0 35px 0; }
+
+.wrap-input-registry a {
+  color: #FFFFFF;
+  text-decoration: underline;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px; }
+
+.close {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 30px;
+  margin-left: 50px; }
+
+.wrap-forma input {
+  display: block;
+  margin-top: 24px;
+  padding: 15px 19px 15px 19px;
+  width: 314px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #464646;
+  border-radius: 6px; }
+
+.wrap-forma button {
+  margin-top: 17px;
+  margin-bottom: 28px;
+  padding: 15px 19px 15px 19px;
+  width: 354px;
+  background: #DB4C4A;
+  border-radius: 30px;
+  border-style: none;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF; }
+
+.wrap-forma .icons {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  margin-right: 17px; }
+
+.wrap-forma .icons a {
+  text-decoration-line: underline;
+  color: #FFFFFF; }
+
+.wrap-forma .icons img {
+  margin: 0 5px 0 0; }
+
+.wrap-forma .icons p {
+  margin-top: 46px; }
+
 @media screen and (max-width: 600px) {
   .header,
   .how-working-autogigant,
