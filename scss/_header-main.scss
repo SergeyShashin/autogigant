@@ -1,2 +1,21 @@
-.header-main{
+.header-main {
+    background: $background-headerMain-1069c3;
+
+    .backgroundTwoMan {
+        background: url(/img/87e37e53039383for600.png) center;
+    }
+
+    .btn-outline-secondary {
+        background: $background-btnDropdown-headerMain-4087cf;
+        color: #ffffff;
+        border: 1px solid #E0E0E0;
+        box-sizing: border-box;
+        border-radius: 6px;
+    }
+
+    .btn-find-price {
+        background: $background-btn-DB4C4A;
+        border-radius: 30px;
+    }
+
 }

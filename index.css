@@ -1,1 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext");
+.header-main {
+  background: #1069c3; }
+  .header-main .backgroundTwoMan {
+    background: url(/img/87e37e53039383for600.png) center; }
+  .header-main .btn-outline-secondary {
+    background: #4087cf;
+    color: #ffffff;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 6px; }
+  .header-main .btn-find-price {
+    background: #DB4C4A;
+    border-radius: 30px; }
