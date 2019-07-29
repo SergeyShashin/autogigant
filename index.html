@@ -9,52 +9,81 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
     <title>Autogigant</title>
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <!-- Don't use this in production: -->
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
 </head>
 
 <body>
-    <div class="header-main">
+    <div id="root"></div>
+    <script type="text/babel">
+        const
+        logotip = <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6">Автогигант</div>,
+        addYuorCarServises = <div className="col-sm col-md ml-3 mr-3 col-lg col-xl">Добавить свой автосервис</div>,
+        login = <a href="#">Войти / </a>,
+        registry = <a href="#">Регистрация</a>
 
-        <div class="container mx-2 mt-2 justify-content-between">
-            <div class="row">
-                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                    Автогигант
-                </div>
-                <div class="row justify-content-end">
-                    <div class="col-sm col-md ml-3 mr-3 col-lg col-xl">
-                        Добавить свой автосервис
+        class HeaderMain extends React.Component{
+            render(){        
+            return  (
+            <div className="container justify-content-between header-main">
+                <div className="row">
+                {logotip}
+                <div className="row justify-content-end">
+                    {addYuorCarServises}
+                    <div className="col-sm col-md ml-3 mr-3 col-lg col-xl">
+                        {login}
+                        {registry}                        
                     </div>
-                    <div class="col-sm col-md ml-3 mr-3 col-lg col-xl">
-                        <a href="#">Войти / </a>
-                        <a href="#">Регистрация</a>
+                </div>
+                </div>
+
+                <div className="container mt-4 mx-2">
+                    <div className="row">
+                        <div className="col-sm col-md col-lg col-xl mr-3 mb-4">
+                            <h2>Выбирай автосервисы по оптимальной цене и качеству самостоятельно</h2>
+                            <button className="btn btn-outline-secondary dropdown-toggle col-sm col-md col-lg col-xl-12 mb-1 text-left"
+                                type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Замена фильтра;
+                                Диагностика...</button>
+                            <button className="btn btn-outline-secondary dropdown-toggle col-sm col-md col-lg-4 col-xl-4 text-left"
+                                type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Марка</button>
+                            <button className="btn btn-outline-secondary dropdown-toggle col-sm col-md col-lg-4 col-xl-4 mx-1 text-left"
+                                type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Модель</button>
+                            <button className="btn btn-outline-secondary col-sm col-md col-lg col-xl-3 btn-find-price"
+                                type="button">Найти цены</button>
+                        </div>
+
+                        <div className="col-sm col-md col-lg col-xl ">
+                            <p> 280 автосервисов по Москве</p>
+                            <img src="/img/87e37e53039383.png" alt="" class="card-img" />                                                                                  
+                        </div>
+
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="container mt-4 mx-2">
-            <div class="row">
-                <div class="col-sm col-md col-lg col-xl mr-3 mb-4">
-                    <h2>Выбирай автосервисы по оптимальной цене и качеству самостоятельно</h2>
-                    <button class="btn btn-outline-secondary dropdown-toggle col-sm col-md col-lg col-xl-12 mb-1 text-left" type="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">Замена фильтра;
-                        Диагностика...</button>
-                    <button class="btn btn-outline-secondary dropdown-toggle col-sm col-md col-lg-4 col-xl-4 text-left" type="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">Марка</button>
-                    <button class="btn btn-outline-secondary dropdown-toggle col-sm col-md col-lg-4 col-xl-4 mx-1 text-left" type="button" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">Модель</button>
-                    <button class="btn btn-outline-secondary col-sm col-md col-lg col-xl-3 btn-find-price" type="button">Найти цены</button>
-                </div>
-
-                <div class="col-sm col-md col-lg col-xl ">
-                    <p><a href="#"> 280</a> автосервисов по Москве</p>
-                    <img src="/img/87e37e53039383.png" alt="" class="card-img">
-                </div>
 
             </div>
+            );
 
-        </div>
+        }
+    }   
 
-    </div>
+    class Autogigant extends React.Component{
+        render(){ 
+            return (                
+                <HeaderMain/>
+             );}
+    }   
+
+    ReactDOM.render(
+            <Autogigant />,
+            document.getElementById('root')
+          );
+    
+    </script>
+
+    
+
 </body>
 
 </html>
