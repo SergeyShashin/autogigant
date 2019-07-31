@@ -1,6 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext");
 @import 'variables.scss';
 @import 'header-main.scss';
+@import 'logotip.scss';
+
+* {
+    margin: 0 auto;
+    font-family: Roboto;
+    font-style: normal;
+}
+
+
 
 
 // Extra small devices (portrait phones, less than 576px)

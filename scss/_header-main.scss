@@ -1,5 +1,10 @@
 .header-main {
     background: $background-headerMain-1069c3;
+    color:#ffffff;
+
+    a{
+        color: #ffff;
+    }
 
     .btn-outline-secondary {
         background: $background-btnDropdown-headerMain-4087cf;

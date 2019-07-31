@@ -19,7 +19,7 @@
     <div id="root"></div>
     <script type="text/babel">
         const
-        logotip = <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6">Автогигант</div>,
+        logotip = <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 logotip ml-4">Автогигант</div>,
         addYuorCarServises = <div className="col-sm col-md ml-3 mr-3 col-lg col-xl">Добавить свой автосервис</div>,
         login = <a href="#">Войти / </a>,
         registry = <a href="#">Регистрация</a>
@@ -28,16 +28,16 @@
             render(){        
             return  (
             <div className="container justify-content-between header-main">
-                <div className="row">
-                {logotip}
-                <div className="row justify-content-end">
+                <div className="row pt-3">
+                    {logotip}
+                    <div className="row justify-content-end">
                     {addYuorCarServises}
                     <div className="col-sm col-md ml-3 mr-3 col-lg col-xl">
                         {login}
                         {registry}                        
                     </div>
                 </div>
-                </div>
+            </div>
 
                 <div className="container mt-4 mx-2">
                     <div className="row">
@@ -52,6 +52,7 @@
                                 type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Модель</button>
                             <button className="btn btn-outline-secondary col-sm col-md col-lg col-xl-3 btn-find-price"
                                 type="button">Найти цены</button>
+                            <p className="mt-3">Цены будут точнее, если вы также укажете:</p>
                         </div>
 
                         <div className="col-sm col-md col-lg col-xl ">
@@ -64,14 +65,82 @@
 
             </div>
             );
-
         }
-    }   
+    }
+
+    class WhyAutogigant extends React.Component{
+        render(){
+            return (
+                <div class="container why-autogigant">
+                        <h1 className="text-center mt-3 mb-3">Почему Автогигант?</h1>
+                    
+                        <div class="wrap-advantages row justify-content-center">
+                            <div class="quickly col-sm col-md col-lg-4 col-xl-4 text-center">
+                                <img src="/img/quickly.png" alt="Быстро"/>
+                                <h2>Быстро</h2>
+                                <p>Процесс составления заявки и подбора автосервиса занимает всего несколько минут</p>
+                            </div>
+                            <div class="nocommission col-sm col-md col-lg-4 col-xl-4 text-center">
+                                <img src="/img/nocommission.png" alt="Быстро"/>
+                                <h2>Без комиссий</h2>
+                                <p>Сервис полностью бесплатен для всех участников, поэтому вы получаете услугу за минимальную цену
+                                </p>
+                            </div>
+                            <div class="targeted col-sm col-md col-lg-4 col-xl-4 text-center">
+                                <img src="/img/targeted.png" alt="Быстро" />
+                                <h2>Адресно</h2>
+                                <p>Только вы выбираете, кому будет доступна ваша заявка на ремонт</p>
+                            </div>
+                        </div>
+                    
+                </div>   
+
+            );
+        }
+    }
+
+    class HowWorking extends React.Component{
+        render(){
+            return (
+                <div class="container justify-content-between how-working-autogigant">
+            <h1 className="text-center mt-3 mb-3">Как работает Автогигант?</h1>
+            <div class="wrap-algoritm row">
+                <div class="algoritm col-sm col-md-3 col-lg-3 col-xl-3 text-center">
+                    <div class="number">1</div>
+                    <h3>Записался на ремонт</h3>
+                    <p>Записаться на ремонт можно прямо на сайте и в удобное время</p>
+                    </div>
+                <div class="algoritm col-sm col-md-3 col-lg-3 col-xl-3 text-center">
+                    <div class="number">2</div>
+                    <h3>Приехал в автосервис</h3>
+                    <p>Приехал в автосервис и оставил авто</p>
+                    </div>
+                <div class="algoritm col-sm col-md-3 col-lg-3 col-xl-3 text-center">
+                    <div class="number">3</div>
+                    <h3>Получил услугу</h3>
+                    <p>Мы следим за качеством и ценой ремонта </p>
+                    </div>
+                <div class="algoritm col-sm col-md-3 col-lg-3 col-xl-3 text-center">
+                    <div class="number">4</div>
+                    <h3>Забрал авто</h3>
+                    <p>Сразу после окончания работ Вам поступит сообщение о готовности</p>
+                </div>
+            </div>
+        </div>
+            );
+        }
+    }
+
+   
 
     class Autogigant extends React.Component{
         render(){ 
-            return (                
-                <HeaderMain/>
+            return (
+                <div>                
+                    <HeaderMain/>
+                    <WhyAutogigant/>
+                    <HowWorking/>
+                </div>
              );}
     }   
 
@@ -82,7 +151,6 @@
     
     </script>
 
-    
 
 </body>
 
