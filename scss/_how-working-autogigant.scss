@@ -1,0 +1,50 @@
+.how-working-autogigant {
+    background: #F5F5F7;
+
+    h1 {
+        font-weight: 300;
+        font-size: 56px;
+        line-height: 66px;
+        color: #333333;
+        opacity: 0.5;
+    }
+
+    h3 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: #000000;
+    }
+
+    p {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+    }
+
+    .algoritm {
+        padding-top: 48px;
+        position: relative;
+        background: #FFFFFF;
+        border-radius: 9px;
+        margin-top: 69px;
+    }
+
+    .number {
+        position: absolute;
+        top: -30px;
+        left: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #1069C3;
+        width: 67px;
+        height: 67px;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
+        border-radius: 50px;
+        color: #ffffff;
+    }
+}

@@ -19,11 +19,13 @@
     <div id="root"></div>
     <script type="text/babel">
         const
-        logotip = <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 logotip ml-4">Автогигант</div>,
-        addYuorCarServises = <div className="col-sm col-md ml-3 mr-3 col-lg col-xl">Добавить свой автосервис</div>,
-        login = <a href="#">Войти / </a>,
-        registry = <a href="#">Регистрация</a>
-
+        logotip = <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 ml-4 logotip">Автогигант</div>,
+        addYuorCarServises = <div className="col-sm col-md ml-3 mr-3 col-lg col-xl addYuorCarServises">Добавить свой автосервис</div>,
+        login = <a href="#" className = "login">Войти / </a>,
+        registry = <a href="#" className = "registry">Регистрация</a>,
+        chooseCarServises = <h2 className="chooseCarServises mb-4">Выбирай автосервисы по оптимальной цене и качеству самостоятельно</h2>
+    
+    
         class HeaderMain extends React.Component{
             render(){        
             return  (
@@ -42,7 +44,7 @@
                 <div className="container mt-4 mx-2">
                     <div className="row">
                         <div className="col-sm col-md col-lg col-xl mr-3 mb-4">
-                            <h2>Выбирай автосервисы по оптимальной цене и качеству самостоятельно</h2>
+                            {chooseCarServises}
                             <button className="btn btn-outline-secondary dropdown-toggle col-sm col-md col-lg col-xl-12 mb-1 text-left"
                                 type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Замена фильтра;
                                 Диагностика...</button>
@@ -54,15 +56,12 @@
                                 type="button">Найти цены</button>
                             <p className="mt-3">Цены будут точнее, если вы также укажете:</p>
                         </div>
-
-                        <div className="col-sm col-md col-lg col-xl ">
+                        <div className="col-sm col-md col-lg col-xl">
                             <p> 280 автосервисов по Москве</p>
                             <img src="/img/87e37e53039383.png" alt="" class="card-img" />                                                                                  
                         </div>
-
                     </div>
                 </div>
-
             </div>
             );
         }
@@ -71,7 +70,7 @@
     class WhyAutogigant extends React.Component{
         render(){
             return (
-                <div class="container why-autogigant">
+                <div class="container why-autogigant p-3">
                         <h1 className="text-center mt-3 mb-3">Почему Автогигант?</h1>
                     
                         <div class="wrap-advantages row justify-content-center">
@@ -102,26 +101,26 @@
     class HowWorking extends React.Component{
         render(){
             return (
-                <div class="container justify-content-between how-working-autogigant">
+                <div className="container justify-content-between p-5 how-working-autogigant">
             <h1 className="text-center mt-3 mb-3">Как работает Автогигант?</h1>
-            <div class="wrap-algoritm row">
-                <div class="algoritm col-sm col-md-3 col-lg-3 col-xl-3 text-center">
-                    <div class="number">1</div>
+            <div className="wrap-algoritm row justify-content-between">
+                <div className="algoritm col-sm col-md-3 col-lg-3 col-xl text-center mx-2">
+                    <div className="number">1</div>
                     <h3>Записался на ремонт</h3>
                     <p>Записаться на ремонт можно прямо на сайте и в удобное время</p>
                     </div>
-                <div class="algoritm col-sm col-md-3 col-lg-3 col-xl-3 text-center">
-                    <div class="number">2</div>
+                <div className="algoritm col-sm col-md-3 col-lg-3 col-xl text-center mx-2">
+                    <div className="number">2</div>
                     <h3>Приехал в автосервис</h3>
                     <p>Приехал в автосервис и оставил авто</p>
                     </div>
-                <div class="algoritm col-sm col-md-3 col-lg-3 col-xl-3 text-center">
-                    <div class="number">3</div>
+                <div className="algoritm col-sm col-md-3 col-lg-3 col-xl text-center mx-2">
+                    <div className="number">3</div>
                     <h3>Получил услугу</h3>
                     <p>Мы следим за качеством и ценой ремонта </p>
                     </div>
-                <div class="algoritm col-sm col-md-3 col-lg-3 col-xl-3 text-center">
-                    <div class="number">4</div>
+                <div className="algoritm col-sm col-md-3 col-lg-3 col-xl text-center mx-2">
+                    <div className="number">4</div>
                     <h3>Забрал авто</h3>
                     <p>Сразу после окончания работ Вам поступит сообщение о готовности</p>
                 </div>
@@ -131,7 +130,25 @@
         }
     }
 
-   
+    class FiltersCharacterCarLocationTime extends React.Component {
+        render(){
+            return (
+                <div className="container my-3 p-3 filtersCharacterCarLocationTime">
+                    <div className="row">
+                        <button className="btn dropdown-toggle col-sm col-md col-lg col-xl p-2 year mx-2 text-left" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >Год выпуска</button>
+                        <button className="btn dropdown-toggle col-sm col-md col-lg col-xl p-2 transmission mx-2 text-left" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">КПП</button>
+                        <button className="btn dropdown-toggle col-sm col-md col-lg col-xl p-2 run mx-2 text-left" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Пробег</button>
+                        <button className="btn dropdown-toggle col-sm col-md col-lg col-xl p-2 city mx-2 text-left" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Москва</button>
+                        <button className="btn dropdown-toggle col-sm col-md col-lg col-xl p-2 district mx-2 text-left" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Район/Метро</button>
+                        <button className="line"></button>                        
+                        <button className="btn dropdown-toggle col-sm col-md col-lg col-xl p-2 date mx-2 text-left" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Дата</button>
+                        <button className="btn dropdown-toggle col-sm col-md col-lg col-xl p-2 time mx-2 text-left" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Вечер</button>                       
+                    </div>
+                </div>                
+            );
+        }
+
+    }
 
     class Autogigant extends React.Component{
         render(){ 
@@ -140,6 +157,8 @@
                     <HeaderMain/>
                     <WhyAutogigant/>
                     <HowWorking/>
+                    <FiltersCharacterCarLocationTime/>                   
+                                      
                 </div>
              );}
     }   

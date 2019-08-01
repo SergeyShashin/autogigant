@@ -9,10 +9,12 @@
     color: #ffffff;
     border: 1px solid #E0E0E0;
     box-sizing: border-box;
-    border-radius: 6px; }
+    border-radius: 6px;
+    border: none; }
   .header-main .btn-find-price {
     background: #DB4C4A;
-    border-radius: 30px; }
+    border-radius: 30px;
+    border: none; }
 
 .logotip {
   font-weight: 900 !important;
@@ -21,6 +23,113 @@
   letter-spacing: 0.34em !important;
   text-transform: uppercase !important;
   border-bottom: none !important; }
+
+.addYuorCarServises {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #F2C94C; }
+
+.login {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px; }
+
+.regisry {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px; }
+
+.chooseCarServises {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 42px; }
+
+.why-autogigant h1 {
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 66px;
+  color: #333333;
+  opacity: 0.5; }
+
+.why-autogigant h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000; }
+
+.why-autogigant p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #9C9C9C; }
+
+.how-working-autogigant {
+  background: #F5F5F7; }
+  .how-working-autogigant h1 {
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 66px;
+    color: #333333;
+    opacity: 0.5; }
+  .how-working-autogigant h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000; }
+  .how-working-autogigant p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000; }
+  .how-working-autogigant .algoritm {
+    padding-top: 48px;
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 9px;
+    margin-top: 69px; }
+  .how-working-autogigant .number {
+    position: absolute;
+    top: -30px;
+    left: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1069C3;
+    width: 67px;
+    height: 67px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    border-radius: 50px;
+    color: #ffffff; }
+
+.filtersCharacterCarLocationTime {
+  position: relative; }
+  .filtersCharacterCarLocationTime button {
+    background: #BABABA;
+    opacity: 0.2;
+    border-radius: 6px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646; }
+  .filtersCharacterCarLocationTime .city,
+  .filtersCharacterCarLocationTime .time {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: #333333; }
+  .filtersCharacterCarLocationTime .line {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    border-top: 1px solid #000000;
+    width: 60px;
+    height: 1px;
+    transform: rotate(-90deg); }
 
 * {
   margin: 0 auto;
