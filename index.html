@@ -144,10 +144,57 @@
                         <button className="btn dropdown-toggle col-sm col-md col-lg col-xl p-2 date mx-2 text-left" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Дата</button>
                         <button className="btn dropdown-toggle col-sm col-md col-lg col-xl p-2 time mx-2 text-left" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Вечер</button>                       
                     </div>
+                    <hr class ="my-3"/>
                 </div>                
             );
         }
+    }
 
+    class CardsStoMap extends React.Component {
+        render(){
+            return (
+                <div className="container my-3 p-3 cardsStoMap">
+                    <div className="row">
+                        <div class="wrap-cardsSto">
+                    <p>Найдено 24 сервиса <span>сначала <u><b>ближайшие</b></u> по рейтингу</span> </p>
+                    <div class="card">
+                        <div class="sto my-2">
+                            <div className="row">
+                            <img src="/img/47ba37e2-0001-4c2e-be55-66e69f7b52b8.png" alt="logo-sto" class="logo-sto mr-2" />
+                            <div class="wrap-name-sto-reviews">
+                                <div class="name-sto">Мойка-Сервис</div>
+                                <img src="/img/Star.png" alt="star" />
+                                <img src="/img/Star.png" alt="star" />
+                                <img src="/img/Star.png" alt="star" />
+                                <img src="/img/Star.png" alt="star" />
+                                <img src="/img/Stargray.png" alt="star" />
+                                <span>22 отзыва</span>
+                            </div>
+                            <div class="distances mr-2">2.8 км от Вас</div>
+                            <div class="flag"> <img src="/img/Vector.png" alt="flag" width="20.25" height="28" /></div>
+                        </div>
+                            </div>
+                        <div class="wrap-services-workTime">
+                            <div class="services">
+                                <p>Диагностика подвески <span>от 600 </span>руб.</p>
+                                <p>Замена фильтра <span>от 450 </span>руб.</p>
+                            </div>
+                            <div class="workTime">
+                                <p>пн-вс: с 07:30 до 23:00</p>
+                                <p class="status">Сейчас открыто</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map">
+                    <iframe
+                        src="https://yandex.ru/map-widget/v1/?um=constructor%3A4d471f55c25653c1b74bc91fb82024e7c63f9bdc94590692494ea679bd032b67&amp;source=constructor"
+                        width="549" height="373" frameBorder="0"></iframe>
+                </div>                        
+                    </div>                 
+                </div>                
+            );
+        }
     }
 
     class Autogigant extends React.Component{
@@ -158,6 +205,7 @@
                     <WhyAutogigant/>
                     <HowWorking/>
                     <FiltersCharacterCarLocationTime/>                   
+                    <CardsStoMap/>                   
                                       
                 </div>
              );}

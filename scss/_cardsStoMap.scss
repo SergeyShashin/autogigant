@@ -1,0 +1,93 @@
+.cardsStoMap{
+    .card {
+        margin-top: 14px;
+        background: #FFFFFF;
+        border: 0.1px solid rgba(0, 0, 0, 0.5);
+        box-sizing: border-box;
+        box-shadow: 0px 20px 30px rgba(146, 146, 146, 0.25);
+        border-radius: 12px;
+    }
+    
+    .sto {
+        position: relative;
+    }
+    
+    .wrap-name-sto-reviews {
+        margin-left: 10px;
+    
+    }
+    
+    .name-sto {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: #000000;
+    }
+    
+    .wrap-name-sto-reviews span {
+        margin-left: 10px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        opacity: 0.5;
+    }
+    
+    .distances {
+        margin-left: 40px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: right;
+        color: #000000;
+        opacity: 0.5;
+    }
+    
+    .flag {
+        position: absolute;
+        top: -10px;
+        right: 6px;
+    }
+    
+    .wrap-services-workTime {
+        display: flex;
+        padding: 0px 31px 19px 31px;
+    }
+    
+    .services {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        margin-right: 15px;
+    }
+    
+    .services p {
+        margin-top: 11px;
+    }
+    
+    .services span {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+    }
+    
+    .workTime {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    .workTime :first-child {
+        margin-top: 25px;
+    }
+    
+    .status {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: right;
+        color: #27AE60;
+    }
+}
