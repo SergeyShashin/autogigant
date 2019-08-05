@@ -130,6 +130,133 @@
     height: 1px;
     transform: rotate(-90deg); }
 
+.cardsStoMap .card {
+  margin-top: 14px;
+  background: #FFFFFF;
+  border: 0.1px solid rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0px 20px 30px rgba(146, 146, 146, 0.25);
+  border-radius: 12px; }
+
+.cardsStoMap .sto {
+  position: relative; }
+
+.cardsStoMap .name-sto {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000; }
+
+.cardsStoMap .wrap-name-sto-reviews span {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  opacity: 0.5; }
+
+.cardsStoMap .distances {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  color: #000000;
+  opacity: 0.5; }
+
+.cardsStoMap .flag {
+  position: absolute;
+  top: -17px;
+  right: -40px; }
+
+.cardsStoMap .wrap-services-workTime {
+  display: flex;
+  padding: 0px 31px 19px 31px; }
+
+.cardsStoMap .services {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-right: 15px; }
+
+.cardsStoMap .services p {
+  margin-top: 11px; }
+
+.cardsStoMap .services span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000; }
+
+.cardsStoMap .workTime {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px; }
+
+.cardsStoMap .workTime :first-child {
+  margin-top: 25px; }
+
+.cardsStoMap .status {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  color: #27AE60; }
+
+.privateCabinet {
+  background: #1069c3;
+  position: relative; }
+  .privateCabinet h1 {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFFF; }
+  .privateCabinet .close {
+    position: absolute;
+    top: 4px;
+    left: 70%; }
+  .privateCabinet a {
+    color: #FFFFFF; }
+  .privateCabinet .inputAndRegistry a {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px; }
+  .privateCabinet form {
+    width: 354px; }
+  .privateCabinet input {
+    margin-top: 24px;
+    padding: 15px 19px 15px 19px;
+    width: 314px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646;
+    border-radius: 6px; }
+  .privateCabinet button {
+    margin-top: 17px;
+    margin-bottom: 28px;
+    padding: 15px 19px 15px 19px;
+    width: 314px;
+    background: #DB4C4A;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF; }
+  .privateCabinet .icons {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 17px; }
+  .privateCabinet .icons a {
+    text-decoration-line: underline;
+    color: #FFFFFF; }
+  .privateCabinet .icons img {
+    margin: 0 5px 0 0; }
+  .privateCabinet .icons p {
+    margin-top: 46px; }
+
 * {
   margin: 0 auto;
   font-family: Roboto;

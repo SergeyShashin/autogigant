@@ -158,11 +158,11 @@
                         <div class="wrap-cardsSto">
                     <p>Найдено 24 сервиса <span>сначала <u><b>ближайшие</b></u> по рейтингу</span> </p>
                     <div class="card">
-                        <div class="sto my-2">
+                        <div class="sto my-3  justify-content-between">
                             <div className="row">
-                            <img src="/img/47ba37e2-0001-4c2e-be55-66e69f7b52b8.png" alt="logo-sto" class="logo-sto mr-2" />
+                            <img src="/img/47ba37e2-0001-4c2e-be55-66e69f7b52b8.png" alt="logo-sto" class="logo-sto col-sm col-md col-lg col-xl" />
                             <div class="wrap-name-sto-reviews">
-                                <div class="name-sto">Мойка-Сервис</div>
+                                <div class="name-sto col-sm col-md col-lg col-xl">Мойка-Сервис</div>
                                 <img src="/img/Star.png" alt="star" />
                                 <img src="/img/Star.png" alt="star" />
                                 <img src="/img/Star.png" alt="star" />
@@ -170,7 +170,7 @@
                                 <img src="/img/Stargray.png" alt="star" />
                                 <span>22 отзыва</span>
                             </div>
-                            <div class="distances mr-2">2.8 км от Вас</div>
+                            <div class="distances col-sm col-md col-lg col-xl-4 ">2.8 км от Вас</div>
                             <div class="flag"> <img src="/img/Vector.png" alt="flag" width="20.25" height="28" /></div>
                         </div>
                             </div>
@@ -197,6 +197,45 @@
         }
     }
 
+    class HeaderPrivateCabinet extends React.Component{
+        render(){ 
+            return (
+                <div>
+                    <div className="container justify-content-between py-3 header-main">
+                    {logotip}
+                    </div>                
+                </div>                
+             );}
+    }
+
+    class PrivateCabinet extends React.Component{
+        render(){ 
+            return (                
+                <div className = "container">
+                    <HeaderPrivateCabinet/>
+                    <div className = "container text-center privateCabinet">                    
+                        <h1 clasName="my-5">ЛИЧНЫЙ КАБИНЕТ</h1>
+                        <img className = "close" src="/img/Closeicon.png" width="22"  height="22" alt=""/>
+                        <p className="inputAndRegistry"><a href="#">Войти </a> <a href="#"> Зарегистрироваться</a></p>                        
+                            <form className = "" action="">
+                                <input type="email" placeholder="email"/>
+                                <input type="password" placeholder="пароль"/>
+                                <input type="password" placeholder="Повторите пароль"/>
+                                <button>Войти</button>
+                            </form>
+                            <div class="icons">
+                                <a href="#">Или с помощью </a>
+                                <img src="/img/google.png" alt="google" />
+                                <img src="/img/vk.png" alt="vk" />
+                                <img src="/img/facebook.png" alt="facebook" />
+                                <p><a href="#">Я-автосервис / </a> <a href="#"> автомастер</a></p>
+                            </div>
+                                                                      
+                    </div>
+                </div>
+             );}
+    }
+
     class Autogigant extends React.Component{
         render(){ 
             return (
@@ -206,6 +245,7 @@
                     <HowWorking/>
                     <FiltersCharacterCarLocationTime/>                   
                     <CardsStoMap/>                   
+                    <PrivateCabinet/>                   
                                       
                 </div>
              );}
@@ -216,9 +256,11 @@
             document.getElementById('root')
           );
     
-    </script>
+</script>
 
 
 </body>
+
+
 
 </html>

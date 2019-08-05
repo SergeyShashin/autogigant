@@ -1,0 +1,78 @@
+.privateCabinet {
+    background: $background-headerMain-1069c3;
+    position: relative;
+
+    h1 {
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 30px;
+        color: #FFFFFF
+    }
+
+    .close {
+        position: absolute;
+        top: 4px;
+        left: 70%;
+    }
+
+    a {
+        color: #FFFFFF;
+    }
+
+    .inputAndRegistry a {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    form{
+        width: 354px;
+    }
+
+    input {
+        margin-top: 24px;
+        padding: 15px 19px 15px 19px;
+        width: 314px;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #464646;
+        border-radius: 6px;
+    }
+    
+    button {
+        margin-top: 17px;
+        margin-bottom: 28px;
+        padding: 15px 19px 15px 19px;
+        width: 314px;
+        background: #DB4C4A;
+        border-radius: 30px;
+        border:none;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .icons {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        margin-right: 17px;
+    }
+    
+    .icons a {
+        text-decoration-line: underline;
+        color: #FFFFFF;
+    }
+    
+    .icons img {
+        margin: 0 5px 0 0;
+    }
+    
+    .icons p {
+        margin-top: 46px;
+    }
+
+}
