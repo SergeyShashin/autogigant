@@ -270,6 +270,8 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 21px; }
+  .cabinetCarOwner .border-style-none {
+    border: none; }
   .cabinetCarOwner span {
     font-weight: normal;
     font-size: 18px;
@@ -291,6 +293,162 @@
     font-weight: bold;
     font-size: 16px;
     line-height: 19px; }
+  .cabinetCarOwner .wrap-content-carowner {
+    background: #E5E5E5; }
+  .cabinetCarOwner .warp-action-detail {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px; }
+  .cabinetCarOwner .action h2 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9C9C9C;
+    text-transform: uppercase; }
+  .cabinetCarOwner .card-action {
+    padding: 9px 27px 9px 27px;
+    margin-bottom: 18px;
+    background: #FFFFFF;
+    border: 1px solid #C9CDDB;
+    box-sizing: border-box; }
+  .cabinetCarOwner .card-action h3 {
+    margin-bottom: 7px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000; }
+  .cabinetCarOwner .card-action p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #9C9C9C; }
+  .cabinetCarOwner .card-action a {
+    margin-left: 11px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #1E3EA4; }
+  .cabinetCarOwner .card-action span {
+    margin-left: 160px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282; }
+  .cabinetCarOwner .card-action-done {
+    padding: 9px 27px 9px 27px;
+    background: #FFFFFF;
+    border: 1px solid #C9CDDB;
+    box-sizing: border-box; }
+  .cabinetCarOwner .card-action-done h3 {
+    margin-bottom: 7px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #828282; }
+  .cabinetCarOwner .card-action-done p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #9C9C9C; }
+  .cabinetCarOwner .card-action-done a {
+    margin-left: 11px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #1E3EA4; }
+  .cabinetCarOwner .card-action-done span {
+    margin-left: 234px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282; }
+  .cabinetCarOwner .card-detail {
+    background: #FFFFFF; }
+  .cabinetCarOwner .card-detail h3 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000; }
+  .cabinetCarOwner .card-detail span {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282; }
+  .cabinetCarOwner .card-detail a {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #1E3EA4; }
+  .cabinetCarOwner .header-card-detail {
+    margin: 25px 0 0 20px; }
+  .cabinetCarOwner .card-detail hr {
+    border-bottom: 1px solid #BDBDBD; }
+  .cabinetCarOwner .wrap-request-car-time-place {
+    margin: 18px 20px 18px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+    margin-bottom: 27px; }
+  .cabinetCarOwner .wrap-detail-offers {
+    margin: 19px 20px 20px 20px; }
+  .cabinetCarOwner .sto {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000; }
+  .cabinetCarOwner .wrap-detail-offers a {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #000000; }
+  .cabinetCarOwner .card {
+    display: flex;
+    flex-direction: row; }
+  .cabinetCarOwner .address {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    opacity: 0.5; }
+  .cabinetCarOwner .workTime {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000; }
+  .cabinetCarOwner .status {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #27AE60; }
+  .cabinetCarOwner .newMesage {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1E3EA4; }
+  .cabinetCarOwner .cansel {
+    background: #ffffff;
+    border: 1px solid #9C9C9C;
+    box-sizing: border-box;
+    border-radius: 30px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333; }
+  .cabinetCarOwner .choose {
+    background: #2148B9;
+    border: 1px solid #9C9C9C;
+    box-sizing: border-box;
+    border-radius: 30px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF; }
 
 * {
   margin: 0 auto;
