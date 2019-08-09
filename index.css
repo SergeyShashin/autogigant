@@ -450,6 +450,171 @@
     text-align: center;
     color: #FFFFFF; }
 
+.inputStoStep1 .wrap-forma-inputSto-step1 {
+  margin-top: 31px;
+  margin-bottom: 224px;
+  width: 473px; }
+
+.inputStoStep1 .wrap-forma-inputSto-step1 h1 {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 30px;
+  color: #29293A; }
+
+.inputStoStep1 .description-carowner-or-master {
+  margin: 3px 0 16px 0;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #BABABA; }
+
+.inputStoStep1 .wrap-forma-inputSto-step1 p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #828282; }
+
+.inputStoStep1 .wrap-input-registry-inputSto-step1 {
+  margin: 12px 0 22px 0; }
+
+.inputStoStep1 .wrap-input-registry-inputSto-step1 a {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #29293A;
+  border-bottom: 1px solid #828282; }
+
+.inputStoStep1 .wrap-input-registry-inputSto-step1 a:first-child {
+  margin-right: 19px; }
+
+.inputStoStep1 .privatePerson {
+  margin: 20px 36px 17px 13px; }
+
+.inputStoStep1 .legalPerson {
+  margin-left: 13px; }
+
+.inputStoStep1 .wrap-forma-inputSto-step1 form {
+  width: 300px;
+  margin-top: 5px; }
+
+.inputStoStep1 .wrap-forma-inputSto-step1 form input {
+  width: 260px; }
+
+.inputStoStep1 .wrap-forma-inputSto-step1 input {
+  margin-top: 14px;
+  padding: 15px 19px 15px 19px;
+  background: #F5F5F7;
+  border-radius: 6px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #464646;
+  opacity: 0.5; }
+
+.inputStoStep1 .wrap-forma-inputSto-step1 button {
+  width: 310px;
+  margin: 17px 0 10px 0;
+  padding: 15px 85px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  background: #DB4C4A;
+  border: none; }
+
+.inputStostep2 .wrap-forma-inputSto-step2 {
+  margin-top: 31px;
+  margin-bottom: 224px;
+  width: 473px; }
+
+.inputStostep2 .wrap-forma-inputSto-step2 h1 {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 30px;
+  color: #29293A; }
+
+.inputStostep2 .description-carowner-or-master {
+  margin: 3px 0 16px 0;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #BABABA; }
+
+.inputStostep2 .wrap-forma-inputSto-step2 p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #828282; }
+
+.inputStostep2 .wrap-input-registry-inputSto-step2 {
+  margin: 12px 0 22px 0; }
+
+.inputStostep2 .wrap-input-registry-inputSto-step2 a {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #29293A;
+  border-bottom: 1px solid #828282; }
+
+.inputStostep2 .wrap-input-registry-inputSto-step2 a:first-child {
+  margin-right: 19px; }
+
+.inputStostep2 .privatePerson {
+  margin: 20px 36px 17px 13px; }
+
+.inputStostep2 .legalPerson {
+  margin-left: 13px; }
+
+.inputStostep2 .wrap-forma-inputSto-step2 form {
+  width: 300px;
+  margin-top: 5px; }
+
+.inputStostep2 .wrap-forma-inputSto-step2 form input {
+  width: 260px; }
+
+.inputStostep2 .wrap-forma-inputSto-step2 input {
+  margin-top: 14px;
+  padding: 15px 19px 15px 19px;
+  background: #F5F5F7;
+  border-radius: 6px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #464646;
+  opacity: 0.5; }
+
+.inputStostep2 .wrap-forma-inputSto-step2 .button-back {
+  width: 120px;
+  margin: 17px 8px 13px 0;
+  background: #ECECEC;
+  padding: 15px 0px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #828282;
+  border: none; }
+
+.inputStostep2 .wrap-forma-inputSto-step2 .button-create {
+  width: 120px;
+  padding: 15px 0px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  background: #DB4C4A;
+  border: none; }
+
+.inputStostep2 .load-foto-sto {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration-line: underline;
+  color: #1E3EA4; }
+
 * {
   margin: 0 auto;
   font-family: Roboto;
