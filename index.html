@@ -368,6 +368,7 @@
                 
              );}
     }
+
     class InputStoStep2 extends React.Component{
         render(){ 
             return (
@@ -400,6 +401,96 @@
              );}
     }
 
+    class CabinetSto extends React.Component{
+        render(){ 
+            return (
+                <div class="container wrap-cabinet-sto my-3">
+                    <div class="wrap-menu-sto p-3">
+                        <a href="#" class="logo">АВТОГИГАНТ</a>
+                        <a href="#"><u>Заявки</u></a>
+                        <a  href="#">Профиль</a>
+                        <span >Сто "Мойка-Сервис"</span>
+                        <img src="/img/47ba37e2-0001-4c2e-be55-66e69f7b52b8.png" alt="foto" />
+                    </div>
+
+                    <div class="wrap-content-sto">
+                        <div class="warp-action-detail">
+                            <div class="action col-sm col-md col-lg col-xl">
+                                <h2>НОВЫЕ(2) <span class="showHidden">Показать скрытые</span></h2>
+                                <div class="card-action">
+                                    <h3>Ремонт двигателя Ford Focus <span class="hide">Скрыть X</span></h3>
+                                    <p>ВДНХ <span> 13.06 вечер (18-21)</span></p>
+                                </div>
+                               
+                                <h2>В работе(1)</h2>
+                                <div class="card-action">
+                                    <h3>Замена моторного масла и маслянного фильтра</h3>
+                                    <p>ВДНХ <span> 13.06 вечер (18-21)</span></p>
+                                </div>
+
+                                <h2>Завершенные(13)</h2>
+                                <div class="card-action-done">
+                                    <h3>Замена моторного масла и маслянного фильтра</h3>
+                                    <p>ВДНХ <span> 13.06 вечер (18-21)</span>
+                                        <a class="show-comment" href="#">Посмотреть отзыв</a>
+                                    </p>
+                                </div>
+                               
+                            </div>
+
+                            <div class="card-detail-sto col-sm col-md col-lg col-xl mr-3 mb-2">
+                                <h3>Ремонт двигателя <span class="date-order">Размещено 5 июня</span></h3>
+                                <div class="wrap-carCharacters-location">
+                                    <div class="carCharacters">
+                                        <div class="carCharacters-left">
+                                            <p>Марка</p>
+                                            <p>Модель</p>
+                                            <p>Год выпуска</p>
+                                            <p>КПП</p>
+                                            <p>Пробег</p>
+                                        </div>
+                                        <div class="carCharacters-right">
+                                            <p>Ford</p>
+                                            <p>Focus</p>
+                                            <p>2011</p>
+                                            <p>АПП</p>
+                                            <p>200 тыс. км</p>
+                                        </div>
+                                    </div>
+                                    <div class="location">
+                                        <div class="location-left">
+                                            <p>Город</p>
+                                            <p>Район</p>
+                                            <p>Время</p>
+                                        </div>
+                                        <div class="location-right">
+                                            <p>Москва</p>
+                                            <p>ВДНХ</p>
+                                            <p>Вечер (18:21)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <p>Ваша стоимость по каталогу: <b><span> 21000руб.</span></b>
+                                    <a href="#">Изменить</a>
+                                </p>
+                                <div class="message">
+                                    <span>Ваше сообщение</span>
+                                    <p>Добрый день!
+                                        Выполним ремонт автомобиля для вашего авто!
+                                    </p>
+                                </div>
+                                <button class="hide-card">Cкрыть карточку</button>
+                                <button class="offer">Предложить</button>
+                            </div>
+                        </div>
+                    </div>
+                   
+                 </div>
+                
+             );}
+    }
+
     class Autogigant extends React.Component{
         render(){ 
             return (
@@ -413,6 +504,7 @@
                     <CabinetCarOwner/>                   
                     <InputStoStep1/>                   
                     <InputStoStep2/>                   
+                    <CabinetSto/>                  
                                       
                 </div>
              );}
